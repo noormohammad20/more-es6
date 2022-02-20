@@ -18,4 +18,4 @@ const sahrukh = new Support('sahrukh', 'india')
 amir.startSession()
 salman.startSession()
 sahrukh.startSession()
-// console.log(amir, salman)
+// console.log(amir, salman);

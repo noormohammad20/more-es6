@@ -1,5 +1,5 @@
 //declare variable base on the name of an object property
-const myObject = { x: 35, y: 68, z: 64, a: 111, b: 555, c: 550 };
+const myObject = { x: 35, y: 68, z: 64, a: 111, b: 555, c: 550 }
 
 const { x, b } = myObject
 

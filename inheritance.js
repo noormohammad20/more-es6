@@ -50,4 +50,3 @@ const ash = new NeptuneDev('ash', 'mumbai', 'android studio')
 ash.releaseApp('1.4.5')
 // console.log(ash)
 
-

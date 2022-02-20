@@ -1,8 +1,8 @@
 //  let and const 
-const hubby = 'omor sani';
+const hubby = 'omor sani'
 
-let phone = 'iPhone 15';
-phone = 'samsung galaxy s16';
+let phone = 'iPhone 15'
+phone = 'samsung galaxy s16'
 
 // default parameter 
 // spread of three dots
@@ -21,7 +21,6 @@ const myNotes = `i am mojnu ${hubby}. i  have a ${phone}`
 // function square(x) {
 //     return x * x;
 // }
-const square = x => x * 2;
+const square = x => x * 2
 console.log(square(8))
-
 
