@@ -1,12 +1,12 @@
-const fish = { id: 58, name: 'king hilsha', price: 9000, phone: '87845807894', address: 'chandpur', dress: 'silver' };
+const fish = { id: 58, name: 'king hilsha', price: 9000, phone: '87845807894', address: 'chandpur', dress: 'silver' }
 
 // const phone = fish.phone;
 // const price = fish.price;
 // const dress = fish.dress;
 // const id = fish.id;
 
-const { phone, price, dress, id } = fish;
-console.log(phone, price, dress, id)
+const { phone, price, dress, id } = fish
+// console.log(phone, price, dress, id)
 
 const company = {
     name: 'grameenphone',
@@ -29,8 +29,9 @@ const company = {
 }
 // const work = company.web.work;
 // const framework = company.web.framework;
-const { work, framework } = company.web;
-const { food } = company.ceo;
-const { first, third } = company.web.tech;
-
-console.log(work, framework, food, first, third)
+const { work, framework } = company.web
+const { food } = company.ceo
+const { web: { tech: { first, third } } } = company  //first way to access 
+const { first, third } = company.web.tech //second way to access
+console.log(first, third)
+// console.log(work, framework, food, first, third)
